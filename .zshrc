@@ -67,8 +67,6 @@ alias lla='eza --icons --color=always -la'
 alias lt='eza --icons --color=always -a --tree --level=1'
 alias grep='grep --color=always'
 alias vim='nvim'
-alias lzg='lazygit'
-alias lzd='lazydocker'
 alias cbonsai='cbonsai -l -i -w 1'
 
 # ─── Tools Init ──────────────────────────────────────────────────
@@ -80,8 +78,29 @@ alias bat='bat --paging=never'
 eval "$(zoxide init zsh)"
 
 
-# Pokemon startup
-pokemon-colorscripts --no-title -s -r
+newTrm=$((1 + RANDOM % 2))
+
+if [ "$newTrm" -eq 1 ]; then
+    fastfetch
+    echo -e "\n"
+
+elif [ "$newTrm" -eq 2 ]; then
+    rdmCow=$((1 + RANDOM % 3))
+
+    if [ "$rdmCow" -eq 1 ]; then
+        cowsay "Arch btw"
+    else
+        cowsay -r "Arch btw"
+    fi
+
+    echo -e "\n"
+fi
 
 # Initialize Oh-My-Posh
 eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/viet.omp.json)"
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /home/guxxdx/.config/.dart-cli-completion/zsh-config.zsh ]] && . /home/guxxdx/.config/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+

@@ -14,4 +14,4 @@ image_fullname_path=$(find "$wallpapers_dir" -type f -name "$selected_wallpaper.
 
 swww img "$image_fullname_path" --transition-type any --transition-duration 2
 
-~/.config/viegphunt/wallpaper_effects.sh
+~/.config/guxxdx/wallpaper_effects.sh
