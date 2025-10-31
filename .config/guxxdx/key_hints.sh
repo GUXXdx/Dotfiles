@@ -10,27 +10,30 @@ yad --center --title="Keybinding Hints" --no-buttons --list \
 "  =   "          "        "  "SUPER KEY (Windows Key Button)" \
 "" "" "" \
 "  H"              "        "  "Show keybinding hints" \
-"  Space"          "        "  "Open terminal" \
+"  Enter"          "        "  "Open terminal" \
+"" "" "" \
+"  D"              "        "  "App launcher" \
 "  E"              "        "  "Open file manager" \
 "  B"              "        "  "Open browser" \
+"  M"              "        "  "Open equidop (discord)" \
 "" "" "" \
-"  Shift Ctrl Esc" "        "  "Exit Hyprland" \
+"  L"              "        "  "Lock screen" \
 "  Q"              "        "  "Close active window" \
 "  Shift Q"        "        "  "Kill active window by PID" \
+"  Shift Ctrl Esc" "        "  "Exit Hyprland" \
 "" "" "" \
 "  F"              "        "  "Toggle floating" \
 "  P"              "        "  "Toggle pseudo (dwindle)" \
 "  J"              "        "  "Toggle split (dwindle)" \
 "" "" "" \
-"  L"              "        "  "Lock screen" \
-"ALT Space"         "        "  "App launcher" \
-"  ."              "        "  "Emoji selector" \
-"  V"              "        "  "Clipboard manager" \
-"  W"              "        "  "Choose wallpaper" \
-"  Shift W"        "        "  "Random wallpaper" \
-"  Shift S"        "        "  "Screenshot (region)" \
-"" "" "" \
 "  [1 -> 0]"       "        "  "Switch workspace 1-10" \
 "  Shift [1 -> 0]" "        "  "Move window to workspace 1-10" \
+"" "" "" \
+"  W"              "        "  "Choose wallpaper" \
+"  Shift W"        "        "  "Random wallpaper" \
+"" "" "" \
+"  ."              "        "  "Emoji selector" \
+"  V"              "        "  "Clipboard manager" \
+"  Shift S"        "        "  "Screenshot (region)" \
 "" "" "" \
 "More Keybinding"   "        "  "$HOME/.config/hypr/conf/keybinding.conf"
