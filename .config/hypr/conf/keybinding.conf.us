@@ -24,14 +24,14 @@ bind = $mainMod, F, togglefloating,
 bind = $mainMod, P, pseudo, # dwindle
 bind = $mainMod, J, togglesplit, # dwindle
 
-bind = $mainMod, L, exec, hyprlock
+bind = $mainMod, L, exec, ~/.config/guxxdx/qwerty_checker.sh && hyprlock
 bind = $mainMod, D, exec, ~/.config/guxxdx/app_launcher.sh # Application launcher
 bind = $mainMod, PERIOD, exec , ~/.config/guxxdx/emoji_launcher.sh # Select emoji
 bind = $mainMod, V, exec, ~/.config/guxxdx/clipboard_launcher.sh # Open clipboard
 bind = $mainMod, Z, exec, ~/.config/guxxdx/wallpaper_select.sh # Select wallpaper
 bind = $mainMod Shift, Z, exec, ~/.config/guxxdx/wallpaper_random.sh # Random wallpaper
 bind = $mainMod Shift, S, exec, hyprshot -m region -o $HOME/Pictures/Screenshots # Screenshot
-bind = $mainMod, K, exec, ~/.config/guxxdx/keyboard_switch.sh 
+bind = $mainMod, K, exec, ~/.config/guxxdx/keyboard_switch.sh #Switch qwerty to azerty
 
 # Move focus with mainMod + arrow keys
 bind = $mainMod, left, movefocus, l

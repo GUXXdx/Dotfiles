@@ -4,7 +4,7 @@
 #           Keyboard_switch     
 #========================================
 #    Change the conf from an azerty
-#    keyboard to a querty keyboard
+#    keyboard to a qwerty keyboard
 #========================================
 #    Error 0 -> the path for hyprland  
 #    configuration file is wrong
