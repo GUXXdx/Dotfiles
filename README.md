@@ -1,6 +1,7 @@
 # My Dotfiles
 
-> All the dotfiles you will encounter are mere copies or modifications of VietPhunt's work
+> All the dotfiles you will encounter are mere copies or modifications of [VietPhunt's work](https://github.com/ViegPhunt).
+> Thanks to him
 ### This repository contains **all of my personal dotfiles**
 
 ## 📦 Included Configurations
