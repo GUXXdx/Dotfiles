@@ -1,4 +1,6 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetbrainsMono+Nerd+Font&weight=600&size=35&duration=2000&pause=2000&color=F7F7F7&width=435&lines=ViegPhunt's+Dotfiles)](https://git.io/typing-svg)
+# My Dotfiles
+
+> All the dotfiles you will encounter are mere copies or modifications of VietPhunt's work
 ### This repository contains **all of my personal dotfiles**
 
 ## 📦 Included Configurations
@@ -29,7 +31,7 @@ This repository includes configuration for:
 │   ├── ohmyposh/
 │   ├── rofi/
 │   ├── swaync/
-│   ├── viegphunt/      # Personal scripts
+│   ├── guxxdx/      # Personal scripts
 │   ├── waybar/
 │   └── wlogout/
 ├── .stow-local-ignore  # Stow ignore list
