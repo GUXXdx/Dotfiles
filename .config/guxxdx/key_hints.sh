@@ -36,6 +36,6 @@ yad --center --title="Keybinding Hints" --no-buttons --list \
 "  V"              "        "  "Clipboard manager" \
 "  Shift S"        "        "  "Screenshot (region)" \
 "" "" "" \
-"  T"              "        "  "Emoji selector" \
+"  K"              "        "  "Change keyboard layout" \
 "" "" "" \
 "More Keybinding"   "        "  "$HOME/.config/hypr/conf/keybinding.conf"

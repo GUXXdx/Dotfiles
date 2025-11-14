@@ -27,7 +27,7 @@ aur_packages=(
     wlogout
 
     # System Utilities and Media
-
+    cava
     # Communication
     spotify firefox equibop
 
